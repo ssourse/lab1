@@ -1,0 +1,11 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration name="Tomcat 9 — Lab 1 (8081)" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.123" ALTERNATIVE_JRE_ENABLED="false">
+    <option name="UPDATING_POLICY" value="restart-server" />
+    <deployment><artifact name="lab1:war exploded"><settings><option name="CONTEXT_PATH" value="/lab1" /></settings></artifact></deployment>
+    <server-settings><option name="BASE_DIRECTORY_NAME" value="web-lab1-8081" /><option name="HTTP_PORT" value="8081" /></server-settings>
+    <predefined_log_file enabled="true" id="Tomcat" />
+    <predefined_log_file enabled="true" id="Tomcat Catalina" />
+    <method v="2"><option name="BuildArtifacts" enabled="true"><artifact name="lab1:war exploded" /></option></method>
+  </configuration>
+</component>
+
